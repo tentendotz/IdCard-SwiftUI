@@ -11,6 +11,7 @@
 		06CB586C2882B224005F676B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB586B2882B224005F676B /* ContentView.swift */; };
 		06CB586E2882B229005F676B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06CB586D2882B229005F676B /* Assets.xcassets */; };
 		06CB58712882B229005F676B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06CB58702882B229005F676B /* Preview Assets.xcassets */; };
+		06CB58802883217C005F676B /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06CB587F2883217C005F676B /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		06CB586B2882B224005F676B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06CB586D2882B229005F676B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06CB58702882B229005F676B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06CB587F2883217C005F676B /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		06CB58822883219E005F676B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		06CB58682882B224005F676B /* IdCard-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				06CB58822883219E005F676B /* Info.plist */,
+				06CB588128832186005F676B /* fonts */,
 				06CB58692882B224005F676B /* IdCard_SwiftUIApp.swift */,
 				06CB586B2882B224005F676B /* ContentView.swift */,
 				06CB586D2882B229005F676B /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				06CB58702882B229005F676B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06CB588128832186005F676B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				06CB587F2883217C005F676B /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06CB58802883217C005F676B /* Pacifico-Regular.ttf in Resources */,
 				06CB58712882B229005F676B /* Preview Assets.xcassets in Resources */,
 				06CB586E2882B229005F676B /* Assets.xcassets in Resources */,
 			);
@@ -270,6 +284,7 @@
 				DEVELOPMENT_TEAM = VL7Y5QW4C2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IdCard-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,7 @@
 				DEVELOPMENT_TEAM = VL7Y5QW4C2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IdCard-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

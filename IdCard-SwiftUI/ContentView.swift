@@ -13,7 +13,10 @@ struct ContentView: View {
         ZStack {
             Color(red: 0.64, green: 0.61, blue: 1.00, opacity: 1.00)
                 .edgesIgnoringSafeArea(.all)
-            
+            Text ("tentenblog")
+                .font(Font.custom("Pacifico-Regular", size: 40))
+                .foregroundColor(.white)
+                .bold()
         }
     }
 }
