@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06CAC6172885524D0088684A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CAC6162885524D0088684A /* InfoView.swift */; };
 		06CB586A2882B224005F676B /* IdCard_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB58692882B224005F676B /* IdCard_SwiftUIApp.swift */; };
 		06CB586C2882B224005F676B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB586B2882B224005F676B /* ContentView.swift */; };
 		06CB586E2882B229005F676B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06CB586D2882B229005F676B /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06CAC6162885524D0088684A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		06CB58662882B224005F676B /* IdCard-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IdCard-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06CB58692882B224005F676B /* IdCard_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdCard_SwiftUIApp.swift; sourceTree = "<group>"; };
 		06CB586B2882B224005F676B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				06CB588128832186005F676B /* fonts */,
 				06CB58692882B224005F676B /* IdCard_SwiftUIApp.swift */,
 				06CB586B2882B224005F676B /* ContentView.swift */,
+				06CAC6162885524D0088684A /* InfoView.swift */,
 				06CB586D2882B229005F676B /* Assets.xcassets */,
 				06CB586F2882B229005F676B /* Preview Content */,
 			);
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06CB586C2882B224005F676B /* ContentView.swift in Sources */,
+				06CAC6172885524D0088684A /* InfoView.swift in Sources */,
 				06CB586A2882B224005F676B /* IdCard_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
