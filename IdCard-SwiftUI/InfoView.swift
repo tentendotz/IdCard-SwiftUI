@@ -13,7 +13,7 @@ struct InfoView: View {
     
     var body: some View {
         RoundedRectangle(cornerRadius: 25)
-            .fill(Color.white)
+            .fill(Color("Shape Color"))
             .frame(height: 50)
             .overlay(alignment: .center) {
                 HStack {
@@ -21,9 +21,10 @@ struct InfoView: View {
                         .foregroundColor(.green)
                     Text(text)
                         .font(.system(size: 25))
+                        .foregroundColor(Color("Info Color"))
                 }
             }
-            .padding(.all)
+            .padding(.horizontal)
     }
 }
 
