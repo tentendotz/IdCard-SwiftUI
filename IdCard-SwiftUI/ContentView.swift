@@ -12,7 +12,7 @@ struct ContentView: View {
         
         ZStack {
             Color(red: 0.64, green: 0.61, blue: 1.00, opacity: 1.00)
-                .edgesIgnoringSafeArea(.all)
+                .ignoresSafeArea(.all)
             VStack {
                 
                 Image("tentenblog")
